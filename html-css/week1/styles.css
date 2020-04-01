@@ -1,0 +1,96 @@
+html, body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #ccccff;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+ }
+ header {
+  background-color: #0000cc;
+  color: #ffffff;
+  text-align: center;
+  padding: 0.1em;
+ }
+ * {
+   box-sizing: border-box;
+ }
+ h4, h5, h6 {
+   font-size: 18px;
+ }
+ .work-period {
+   color: blue;
+   }
+ .row {  
+   display: flex;
+   flex-wrap: wrap;
+ }
+ .left-column {
+   flex: 33%;
+   background-color: #fff5ef;
+   padding: 20px;
+ }
+ .right-column {
+   flex: 66%;
+   background-color: #fff5ef;
+   padding: 20px;
+ }
+ @media screen and (max-width: 700px) {
+   .row {   
+     flex-direction: column;
+   }
+ }
+ .profile-image {
+   background-image: url("https://scontent-arn2-2.xx.fbcdn.net/v/t31.0-8/p960x960/20776460_1421177197931799_6767980888522785793_o.jpg?_nc_cat=108&_nc_sid=85a577&_nc_ohc=B1zJ8CuhJR0AX9FxCir&_nc_ht=scontent-arn2-2.xx&_nc_tp=6&oh=1023781700a1e6642b9bda7397aaa092&oe=5EAB8206");
+   height: 250px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   padding-top: 0.5em;
+ }
+ .profile-text {
+   text-align: left;
+   margin-left: 0.3em;
+   margin-top: -0.4em; 
+   color: #ffffff;
+ }
+ .card {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+  padding-bottom: 2em;
+ }
+ .info-panel, .exper-panel, .edu-panel {
+   font-size: 16px;
+   color: #666666;
+   padding: 0.5em 1.5em;    
+ }
+ .skills-bar, .language-bar {
+   width: 100%;
+   background-color: #e6e6ff;
+   border-radius: 1em;
+ }
+ .skills, .language {
+   font-size: 12px;
+   text-align: center;  
+   color: white;
+ }
+ .html {width: 70%; background-color: #0000cc; border-radius: 1em;}
+ .css {width: 60%; background-color: #0000cc; border-radius: 1em;}
+ .js {width: 45%; background-color: #0000cc; border-radius: 1em;}
+ .php {width: 10%; background-color: #0000cc; border-radius: 1em;}
+ .arabic {width: 100%; background-color: #0000cc; border-radius: 1em;}
+ .english {width: 99%; background-color: #0000cc; border-radius: 1em;}
+ .danish {width: 40%; background-color: #0000cc; border-radius: 1em;}
+ mark {
+ padding: 5px;
+ background-color: #0000cc;
+ color:white;
+ border-radius: 0.2em;
+ }
+ footer {
+   text-align: center;
+   text-decoration: none;
+   background-color: #0000cc;
+   color: #33ffff;
+   padding: 1em;
+ }
