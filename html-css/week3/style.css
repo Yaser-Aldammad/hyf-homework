@@ -1,0 +1,275 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+    font-size: medium;
+    background-color: rgb(202, 226, 68);
+    margin: 0;
+}
+div {
+    width: 100%;
+}
+.container {
+width: 100%;
+height: auto;
+display: inline-flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+background: rgb(163, 222, 240);
+}
+.porfile-description {
+margin: 6rem 0 2rem 0;
+}
+.porfile-description label {
+margin: 4rem 2rem 0 6rem;
+position: relative;
+bottom: 8rem;
+}
+.porfile-description input {
+margin: 2rem 2rem 0 0;
+}
+.profile-description-1 {
+    width: 20rem;
+    text-align: left;
+    height: auto;
+    font-style: italic;
+    font-size: 1rem;
+    position: relative;
+    left: 1rem;
+    bottom: 9rem;
+    padding-top: 1rem;
+}
+.logo-wrap {
+width: 20%;
+height: 17%;
+box-sizing: border-box;
+text-align: left;
+}
+img {
+    width: 100%;
+    padding: 1rem 0 1rem 3rem;
+    height: 9rem;
+}
+nav {
+    width: 50%;
+
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(163, 222, 240);
+    padding: 2rem 2rem 3rem 0
+}
+nav li {
+    display: inline-block;
+    line-height: 3rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+h1, h2, h3, h4 {
+    text-align: left;
+    padding: 0 0 0 2rem;
+}
+p {
+    text-align: justify;
+    padding: 0 0 0 3rem;
+    width: 55%;
+    line-height: 1.5rem;
+}
+progress {
+    width: 90%;
+    height: 2rem;
+    display: inline-block;
+    margin: 0 3rem 0 3rem;
+}
+
+label {
+margin: 5rem 0 0 8rem;
+font-size: large;
+}
+.country-1 label {
+margin: 5rem 0 0 8rem;
+font-size: large;
+}
+input {
+    height: 2rem;
+    width: 10rem;
+    margin: 2rem 0 2rem 0;
+}
+.country-1 select {
+height: 2rem;
+width: 10rem;
+margin: 0 0 0 1rem;
+}
+.pic1 input {
+position: relative;
+top: 6rem;
+right: 2rem;
+}
+.country label {
+    margin: 0 ;
+}
+.street label {
+margin: 0 0 0 6rem;
+}
+.street input {
+    margin: 2rem 2rem 0 0;
+}
+
+.description p {
+    height: auto;
+    display: block;
+    text-align: center;
+    padding: 2rem 0 0 5rem;
+    width: 200px;
+}
+.box input {
+    height: 1.5rem;
+}
+
+.container-11 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container-11 input {
+    height: 2rem;
+    width: 10rem;
+    padding: 0 0 0 2rem;
+}
+.container-11 label {
+    padding: 0 2rem 0 0;
+    font-size: large;
+}
+.cards-type select {
+    height: 2rem;
+    width: 12rem;
+    margin-left: 4rem;
+    font-size: large;
+}
+.card label{
+    margin-left: 4rem;
+    margin-right: 3rem;
+}
+.card input {
+    height: 2rem;
+    width: 12rem;
+}
+.month-year input, .cvv input{
+    width: 2.5rem;
+    padding: 0;
+    margin: 0;
+}
+.month-year label {
+margin-right: 3rem;
+}
+.cvv {
+    padding: 2rem 0 0 0;
+    margin: 0 0 2rem 0;
+}
+.cvv label {
+    margin-left: 11rem;
+    margin-right: 4rem;
+    margin-top: 1rem;
+}
+button {
+    background-color: #4CAF50;
+    border-style: solid black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 23px;
+    cursor: pointer;
+    position:relative;
+    left: 80%;
+    bottom: 1rem;
+}
+
+
+.boxx {
+    width: 60rem;
+    height: auto;
+    background-color: burlywood;
+    margin: 2rem 4rem 2rem 4rem;
+    position: relative;
+    top: 2rem;
+    right: 5rem;
+    bottom: 8rem;
+    left: 10rem;
+}
+.items-check {
+    display: flex;
+    flex-direction: row;
+    height: initial;
+}
+.box-item-1, .box-item-2 {
+display: inline-block;
+flex-direction: column;
+}
+.f1 {
+    margin: 0 0 0 2rem;
+}
+.f3 {
+    margin: 0 0 0 1rem;
+}
+.f5 {
+    margin: 0 0 0 1rem;
+}
+
+
+
+
+
+
+
+
+.email label {
+margin: 0 4rem 0 5rem;
+}
+.password label {
+margin: 0 3rem 0 4rem;
+}
+.repassword label {
+margin: 0 0 0 2rem;
+}
+
+.newsletter1 {
+display: inline-flex;
+margin-bottom: 2rem;
+
+}
+.newsletter label {
+    margin: 2rem 0 0 2rem;
+}
+
+
+.pic1 img, .pic2 img {
+border: 1px solid #ddd;
+border-radius: 4px;
+padding: 5px;
+width: 150px;¨
+display: flex;
+flex-direction: column;
+}
+.pic1, .pic2 {
+display: flex;
+flex-direction: row;
+width: auto;
+margin-bottom: 4rem;
+}
+
+.container-images {
+    margin: 0;
+    padding: 0 0 2rem 0;
+    display: inline-block;
+    align-content: center;
+}
+.box-12 {
+    display: none;
+}
+#shiping-id:not(:checked) + .box-12 {
+    display: block;
+}

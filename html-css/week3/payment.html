@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>payment</title>
+</head>
+<body>
+    <div class="boxx">
+    <header>
+        <div class="container">
+            <div class="logo-wrap">
+                <img src="https://img.freepik.com/free-vector/trading_8251-69.jpg?size=338&ext=jpg" alt="trading-techonology-logo">
+            </div>
+            <nav>
+               <ul>
+                   <li><a href="#portfolio">Portfolio</a></li>
+                   <li><a href="#About">About</a></li>
+                   <li><a href="#Contact">Contact</a></li>
+               </ul>
+           </nav>
+    </header>
+    <!-- porgress line-->
+    <div class="progress">
+        <h1>Sign up to yourcustomtailor.com</h1>
+        <h2>Step 4/4- payment</h2>
+        <h3>progress</h3>
+        <progress value="90" max="100"></progress>
+    </div>
+<!-- body of the page-->
+    <div class="container-11">
+        <h4>Please fill in your payment data</h4>
+        <div class="form-1">
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="Yourcard">
+        </div>
+    </div>
+<!-- card type field-->
+    <div class="cards-type">
+        <label for="cards">Card type</label>
+               <select id="cards" name="card">
+                   <option value=""></option>
+                   <option value="ATM card">Master Card</option>
+                   <option value="debit card">Debit Card</option>
+                   <option value="credit card">vist Card</option>
+                   <option value="ATM card">ATM Card</option>
+                </select>
+    </div>
+    <!--Card details-->
+    <div class="card">
+        <label for="ccn">Credit Card Number</label>
+        <input type="text" id="ccn" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="" placeholder="" required>
+        <label for="firstname"> First name</label>
+        <input type="text" id="firstname" name="firstname">
+    </div>
+    <div class="month-year">
+        <label for="Expiry">Expiry month</label>
+        <input type="text" id="Expiry" name="Expiry" pattern="" placeholder="" required>
+        <label for="expyear">Expiry year</label>
+        <input type="text" id="expyear" name="expyear" pattern="" placeholder="" required>
+    </div>
+    <div class="cvv">
+        <label for="cvv">CVV</label>
+        <input type="text" id="cvv" name="cvv" placeholder="">
+    </div>
+    <div class="button">
+        <button type="submit">Next step</button>
+    </div>
+
+</div>
+</body>
+</html>
