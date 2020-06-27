@@ -1,0 +1,209 @@
+[33mcommit db885ee852779c1861390751e9a8b922ad2eb7be[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: ef0a966 90444ba
+Author: Yaser-Aldammad <62471888+Yaser-Aldammad@users.noreply.github.com>
+Date:   Thu Jun 25 00:13:34 2020 +0200
+
+    Merge pull request #6 from Yaser-Aldammad/git/week4
+    
+    Git/week4
+
+[33mcommit 90444ba95d7e532a599ba8fedf03be077fd3cd6c[m[33m ([m[1;31morigin/git/week4[m[33m, [m[1;32mgit/week4[m[33m)[m
+Author: Yaser-Aldammad <yaser_dammad@hotmail.com>
+Date:   Thu Jun 25 00:04:33 2020 +0200
+
+    add to do list
+
+[33mcommit 51fb9efe2bcf97c302cd25969e8c5f4a5cf824f3[m[33m ([m[1;31morigin/javascript/javascript1/week3[m[33m, [m[1;32mjavascript/javascript1/week3[m[33m)[m
+Author: Yaser-Aldammad <yaser_dammad@hotmail.com>
+Date:   Wed Jun 17 22:52:42 2020 +0200
+
+    calculated series duration
+
+[33mcommit 5082dece64eef70b1c42366e9a48b0afd7f32d62[m
+Author: Yaser-Aldammad <yaser_dammad@hotmail.com>
+Date:   Wed Jun 17 21:53:15 2020 +0200
+
+    added function arriving time
+
+[33mcommit 2a90a9d287479d7ff3adaecf85d55171f1005e27[m
+Author: Yaser-Aldammad <yaser_dammad@hotmail.com>
+Date:   Wed Jun 17 20:57:41 2020 +0200
+
+    added element to remove
+
+[33mcommit ef0a966e53d5dc3c82d289b84156949095922db8[m
+Author: Yaser-Aldammad <62471888+Yaser-Aldammad@users.noreply.github.com>
+Date:   Wed Jun 17 20:17:50 2020 +0200
+
+    Delete Itemremoval.js
+
+[33mcommit 5535d4f86cba4dee0fda1a78d3501c92b12c1e09[m
+Author: Yaser-Aldammad <62471888+Yaser-Aldammad@users.noreply.github.com>
+Date:   Wed Jun 17 20:17:38 2020 +0200
+
+    Delete arrivingtime.js
+
+[33mcommit f81efbb714069dd5bb7af45784ff9053caf81615[m
+Author: Yaser-Aldammad <62471888+Yaser-Aldammad@users.noreply.github.com>
+Date:   Wed Jun 17 20:00:17 2020 +0200
+
+    Add files via upload
+
+[33mcommit ca9dd7b7e5a12d9e352a4665f2f1b6e7478f45af[m
+Author: Yaser-Aldammad <62471888+Yaser-Aldammad@users.noreply.github.com>
+Date:   Wed Jun 17 19:21:28 2020 +0200
+
+    Add files via upload
+
+[33mcommit 1c2b2315277a3ee5adb46eaa7d9f49974120be6b[m
+Author: Yaser-Aldammad <62471888+Yaser-Aldammad@users.noreply.github.com>
+Date:   Thu Jun 4 21:42:58 2020 +0200
+
+    Delete styles.css
+
+[33mcommit 141e629ce51c08af587e9ba158a4c1575b07e874[m
+Author: Yaser-Aldammad <62471888+Yaser-Aldammad@users.noreply.github.com>
+Date:   Thu Jun 4 21:42:44 2020 +0200
+
+    Delete CV.html
+
+[33mcommit 716dd34bf460e29035ed6b147d9ecd5d8d31cb2a[m
+Merge: c9d2985 eeb76d2
+Author: Yaser-Aldammad <62471888+Yaser-Aldammad@users.noreply.github.com>
+Date:   Sat May 30 17:43:53 2020 +0200
+
+    Merge pull request #4 from Yaser-Aldammad/javascript/javascript1/week2
+    
+    Javascript/javascript1/week2
+
+[33mcommit eeb76d204066b8db57362b6240764e1eebc21457[m[33m ([m[1;31morigin/javascript/javascript1/week2[m[33m)[m
+Author: Yaser-Aldammad <yaser_dammad@hotmail.com>
+Date:   Sat May 30 17:41:18 2020 +0200
+
+    added file fullname
+
+[33mcommit 6dab7589b3a519e290a7ed035a0b185f265db9c4[m
+Author: Yaser-Aldammad <yaser_dammad@hotmail.com>
+Date:   Sat May 30 17:39:22 2020 +0200
+
+    added file event
+
+[33mcommit 4805766e2e8491c1bd93562b99fed0484cbb7050[m
+Author: Yaser-Aldammad <yaser_dammad@hotmail.com>
+Date:   Sat May 30 17:37:40 2020 +0200
+
+    added file weather
+
+[33mcommit eccd98aeed43e603e76c865f058fd1a6d1db411e[m
+Author: Yaser-Aldammad <yaser_dammad@hotmail.com>
+Date:   Sat May 30 17:35:33 2020 +0200
+
+    creat new file const class07Students = [];
+
+[33mcommit c9d29851f29e824687107db6cfcf78e4cfaf7542[m
+Merge: eaf3252 db8789a
+Author: Yaser-Aldammad <62471888+Yaser-Aldammad@users.noreply.github.com>
+Date:   Thu May 28 17:03:07 2020 +0200
+
+    Merge pull request #3 from Yaser-Aldammad/javascript/javascript1/week1
+    
+    Javascript/javascript1/week1
+
+[33mcommit db8789aef43cee5a4ccd393acc4043e0c2e34e62[m[33m ([m[1;31morigin/javascript/javascript1/week1[m[33m)[m
+Author: Yaser-Aldammad <yaser_dammad@hotmail.com>
+Date:   Thu May 28 17:00:02 2020 +0200
+
+    added new file  A dog age calculator
+
+[33mcommit a66baef48d0e5816214163e7bdd78ca302400201[m
+Author: Yaser-Aldammad <yaser_dammad@hotmail.com>
+Date:   Thu May 28 16:55:21 2020 +0200
+
+    added new file A dog age calculator
+
+[33mcommit 2415e640c20523321caa1442d8feb0522fee560e[m
+Author: Yaser-Aldammad <yaser_dammad@hotmail.com>
+Date:   Thu May 28 16:52:52 2020 +0200
+
+    creat new file A future age calculator
+
+[33mcommit eaf32526a6e47f6d53a98519dfc180332d3134e7[m
+Author: Yaser-Aldammad <62471888+Yaser-Aldammad@users.noreply.github.com>
+Date:   Sat May 23 00:51:58 2020 +0200
+
+    Add files via upload
+
+[33mcommit a47904ab7763ff6672f7ab267a35c140cfae6803[m
+Merge: 1426297 b518258
+Author: Yaser-Aldammad <62471888+Yaser-Aldammad@users.noreply.github.com>
+Date:   Mon May 18 14:54:51 2020 +0200
+
+    Merge pull request #2 from Yaser-Aldammad/git/week1
+    
+    Git/week1
+
+[33mcommit b5182583e325ab64ddb3f776f2093181f925820c[m[33m ([m[1;31morigin/git/week1[m[33m)[m
+Author: Yaser-Aldammad <yaser_dammad@hotmail.com>
+Date:   Mon May 18 14:53:50 2020 +0200
+
+    change the countries file
+
+[33mcommit 6d3373d8b616afa6cd30ca61990af4116c793166[m
+Author: Yaser-Aldammad <yaser_dammad@hotmail.com>
+Date:   Mon May 18 14:47:51 2020 +0200
+
+    i changed the countries
+
+[33mcommit fcefd059a7b2c64f1ebea4f1a3bdf70bb3380a20[m
+Author: Yaser-Aldammad <yaser_dammad@hotmail.com>
+Date:   Mon May 18 14:45:44 2020 +0200
+
+    added the countries file
+
+[33mcommit df6e96ba1ac96e8e9efee3a095e41b635e732bbf[m
+Author: Yaser-Aldammad <yaser_dammad@hotmail.com>
+Date:   Mon May 18 14:44:08 2020 +0200
+
+    added the second file
+
+[33mcommit 50f45b04fba04fb0e4d46c6f3d1dbd609e4126c0[m
+Author: Yaser-Aldammad <yaser_dammad@hotmail.com>
+Date:   Mon May 18 14:42:18 2020 +0200
+
+    creat new file
+
+[33mcommit 14262972a2201d1995e9557dcb4f400813c18662[m
+Author: Yaser-Aldammad <62471888+Yaser-Aldammad@users.noreply.github.com>
+Date:   Tue Apr 14 23:07:33 2020 +0200
+
+    Homework week 2
+
+[33mcommit 34a00c0953e23eea2ab795f8e1df039e4d9d4b19[m
+Author: Yaser-Aldammad <62471888+Yaser-Aldammad@users.noreply.github.com>
+Date:   Sat Apr 4 00:35:22 2020 +0200
+
+    Homework week1
+
+[33mcommit 3331952167095b8068bf6562a8827e9ecc778a7c[m
+Author: Yaser-Aldammad <62471888+Yaser-Aldammad@users.noreply.github.com>
+Date:   Sat Apr 4 00:20:31 2020 +0200
+
+    Homework week 1
+
+[33mcommit 717485e0e674d04e6324474f4a6d7c681c79067e[m
+Author: Yaser-Aldammad <62471888+Yaser-Aldammad@users.noreply.github.com>
+Date:   Sat Apr 4 00:13:46 2020 +0200
+
+    Add files via upload
+
+[33mcommit 5de970f5ae76eb8270e70f887eab1a9c8c7a3f44[m
+Author: Yaser-Aldammad <62471888+Yaser-Aldammad@users.noreply.github.com>
+Date:   Wed Apr 1 23:16:24 2020 +0200
+
+    added week1 homework
+
+[33mcommit 7a6822fbb7109d84320f203ce75368d947ec8765[m
+Author: Yaser-Aldammad <62471888+Yaser-Aldammad@users.noreply.github.com>
+Date:   Wed Apr 1 23:13:03 2020 +0200
+
+    Initial commit
