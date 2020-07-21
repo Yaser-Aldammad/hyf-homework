@@ -1,0 +1,21 @@
+{
+    "firstName": "Yaser",
+    "surName": "Aldammad",
+    "age": 37,
+    "Email": "yaser_dammad@hotmail.com",
+    "location": "Denmark",
+    "skills": [
+      "Html",
+      "Css",
+      "Javascript",
+      "Bootstrab- in-progress",
+      "React- in-progress",
+      "vue- in-progress",
+      "node- in-progress",
+      "Asp.net- in-progress"
+    ],
+    "address": {
+      "Denmark": "Skt.jørgens gade 32,2th, 5000 Odense C",
+    },
+    "work": false
+  }
