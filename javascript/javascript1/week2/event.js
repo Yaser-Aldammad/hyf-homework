@@ -5,7 +5,7 @@ function getEventWeekday(numOfDays){
     'Wedensday','Thursday','Fraiday',
     'Saturday'] ;   
     let eventDay = weekDays[(numOfDays + todayDate.getDay())  % 7 ];
-    console.log( todayDate.getDay());
+   console.log( todayDate.getDay());
     return eventDay ;
 }
 
