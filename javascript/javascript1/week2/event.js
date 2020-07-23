@@ -17,4 +17,4 @@ let weekdays = [
     return weekdays[(day + today) % 7];
   }
   eventDay = getEventWeekday(5);
-  console.log(" event day will be " + eventDay);
+  console.log("Event day will be " + eventDay);
