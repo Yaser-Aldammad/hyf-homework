@@ -7,19 +7,13 @@ let requests = classMates.map((name) =>
 Promise.all(requests)
 .then((responses) => {
 
-
   return Promise.all(responses.map((response) => response.json()) );
-
 
 })
 .then((data) => {
 
  let mainUl = document.createElement("ul");
  document.body.appendChild(mainUl);
-
-
-
-
 
    data.forEach((element) => {
         let nameli = document.createElement("li");
