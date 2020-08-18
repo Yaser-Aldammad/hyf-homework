@@ -1,7 +1,7 @@
 -- creat new database
 CREATE DATABASE DBpart2;
 USE DBpart2;
-CREATE TABLE class (
+CREATE TABLE classes (
 `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 `name` VARCHAR(50) NOT NULL,
 `begins` DATETIME,
@@ -9,7 +9,7 @@ CREATE TABLE class (
 );
 
 -- part 2, school database
-CREATE TABLE student (
+CREATE TABLE students (
 `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 `name` VARCHAR(50) NOT NULL,
 `email` VARCHAR(50) NOT NULL,
@@ -30,5 +30,5 @@ CREATE INDEX idx_students
 ON student(name);
 
 -- adding new column
-ALTER TABLE class
+ALTER TABLE classes
 ADD COLUMN status ENUM('not started', 'ongoing', 'finished') default('ongoing');
