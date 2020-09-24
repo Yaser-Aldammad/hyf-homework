@@ -2,15 +2,6 @@ const express = require("express");
 const router = express.Router();
 const knex = require("../database");
 
-router.get("/", async (request, response) => {
-  try {
-    // knex syntax for selecting things. Look up the documentation for knex for further info
-    const titles = await knex("meal").select("*");
-    response.json(titles);
-  } catch (error) {
-    throw error;
-  }
-});
 // posting a new meal
 router.post("/", async (request, response) => {
   creatNewMeal({
@@ -51,7 +42,7 @@ const getMealById = async ({ body, id }) => {
       })
       .select("*");
   } catch (error) {
-    console.log(error);
+    console.log("insert a Meal Id");
   }
 };
 router.get("/:id", async (req, res) => {
@@ -77,6 +68,10 @@ const getUpdatedMeal = async ({ body, id }) => {
   }
   const queryDto = {
     price: price,
+    title: title,
+    description: description,
+    maxNumberOfGuests: maxNumberOfGuests,
+    created_date: created_date,
   };
   if (Object.keys(queryDto).length !== 0) {
     return await knex("meal")
@@ -169,24 +164,21 @@ router.get("/", async (request, response) => {
         response.status(400).send("Bad request").end();
         console.log(ex);
       });
-  }
-  if (request.query.title) {
+  } else if (request.query.title) {
     getTitle(request.query.title)
       .then((result) => response.json(result))
       .catch((ex) => {
         response.status(400).send("Bad request").end();
         console.log(ex);
       });
-  }
-  if (request.query.createdAfter) {
+  } else if (request.query.createdAfter) {
     getCreatedAfter(request.query.createdAfter)
       .then((result) => response.json(result))
       .catch((ex) => {
         response.status(400).send("Bad request").end();
         console.log(ex);
       });
-  }
-  if (request.query.limit) {
+  } else if (request.query.limit) {
     getLimit(request.query.limit)
       .then((result) => response.json(result))
       .catch((ex) => {
