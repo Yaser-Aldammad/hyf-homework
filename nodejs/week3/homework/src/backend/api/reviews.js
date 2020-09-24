@@ -2,24 +2,18 @@ const express = require("express");
 const knex = require("../database");
 const router = express.Router();
 
-const postReservation = async ({ body }) => {
-  const {
-    number_of_guests,
+const postReview = async ({ body }) => {
+  const { title, description, meal_id, stars, created_date } = body;
+  return await knex("review").insert({
+    title,
+    description,
     meal_id,
-    contact_phonenumber,
-    contact_name,
-    contact_email,
-  } = body;
-  return await knex("reservation").insert({
-    number_of_guests,
-    meal_id,
-    contact_phonenumber,
-    contact_name,
-    contact_email,
+    stars,
+    created_date,
   });
 };
 router.post("/", async (request, response) => {
-  postReservation({
+  postReview({
     body: request.body,
   })
     .then((result) => response.json(result))
@@ -30,30 +24,24 @@ router.post("/", async (request, response) => {
 });
 router.get("/", async (request, response) => {
   try {
-    const allReservations = await knex("reservation").select("*");
-    response.json(allReservations);
+    const allReviews = await knex("review").select("*");
+    response.json(allReviews);
   } catch (error) {
     throw error;
   }
 });
-const getReservationById = async ({ body, id }) => {
+const getReviewById = async ({ body, id }) => {
   try {
-    const {
-      number_of_guests,
-      meal_id,
-      contact_phonenumber,
-      contact_name,
-      contact_email,
-    } = body;
-    return await knex("reservation").where({ id: id }).select("*");
+    const { title, description, meal_id, stars, created_date } = body;
+    return await knex("review").where({ id: id }).select("*");
   } catch (error) {
     throw error;
-    console.log(error);
+    console.log("insert the correct ID");
   }
 };
 
 router.post("/:id", async (request, response) => {
-  getReservationById({
+  getReviewById({
     body: request.body,
   })
     .then((data) => response.json(data))
@@ -63,7 +51,7 @@ router.post("/:id", async (request, response) => {
     });
 });
 router.put("/:id", async (request, response) => {
-  getReservationById({
+  getReviewById({
     body: request.body,
     id: request.params.id,
   })
@@ -73,54 +61,48 @@ router.put("/:id", async (request, response) => {
       console.log("error");
     });
 });
-const updateReservation = async ({ body, id }) => {
-  const {
-    number_of_guests,
-    meal_id,
-    contact_phonenumber,
-    contact_name,
-    contact_email,
-  } = body;
-  const reservation = await knex("reservation").where("id: id").select("*");
-  if (reservation.length === 0) {
+const updateReview = async ({ body, id }) => {
+  const { title, description, meal_id, stars, created_date } = body;
+  const review = await knex("review").where("id: id").select("*");
+  if (review.length === 0) {
     throw new httperror("bad request", "meal not found: ID ${id}!", 404);
   }
   const queryupdate = ({
-    number_of_guests: number_of_guests,
+    title: title,
+    description: description,
     meal_id: meal_id,
-    contact_phonenumber: contact_phonenumber,
-    contact_name: contact_name,
-    contact_email: contact_email,
+    stars: stars,
+    created_date: created_date,
   } = body);
+
   if (Object.keys(queryupdate).length !== 0) {
-    return await knex("reservation").where({ id: id }).update(queryupdate);
+    return await knex("review").where({ id: id }).update(queryupdate);
   } else return "nothing was updated!";
 };
-const deletReservation = async ({ id }) => {
+const deletReview = async ({ id }) => {
   try {
     if (!id) {
-      return "you have to write the right ID, try again";
+      return "you have to write the correct ID, try again";
     }
-    return knex("reservation").where({ id: id }).del();
+    return knex("review").where({ id: id }).del();
   } catch (error) {
     return "Something went wrong, try again";
   }
 };
-
 router.get("/:id", async (req, res) => {
-  getReservationById({
+  getReviewById({
     body: req.body,
     id: req.params.id,
   })
     .then((result) => res.json(result))
     .catch((error) => {
       response.status(400).send("Bad request").end();
-      console.log(error);
+      console.log("inset the correct ID");
     });
 });
 
 router.delete("/:id", async (req, res) => {
-  deleteReservation({
+  deleteReview({
     id: req.params.id,
   })
     .then((result) => res.json(result))
