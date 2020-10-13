@@ -36,9 +36,9 @@ router.get("/", async (req, res) => {
 
   // filter by created date
 
-  let createdAfter = req.query.createdAfter;
+  let createdAfter = Date.parse(meal.createdAt);
   if (createdAfter) {
-    res.send(meals.filter((meal) => meal.created_date >= createdAfter));
+    res.send(meals.filter((meal) => meal.createdAt >= createdAfter));
   }
   let limit = req.query.limit;
   if (limit) {
