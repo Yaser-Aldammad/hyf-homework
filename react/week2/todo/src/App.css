@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.counter {
+  color: #61dafb;
+  display: inline;
+  position: relative;
+  left: 300px;
+}
+.table {
+  margin-left: 150px;
+}
+.complete {
+  text-decoration: line-through;
+}
